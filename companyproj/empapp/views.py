@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Employee
-from .forms import EmployeeForm  # Assuming you have a form for Employee
+from .froms import EmployeeForm
 
 # View to list all employees
 def employees(request):

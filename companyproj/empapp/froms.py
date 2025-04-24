@@ -1,7 +1,13 @@
 from django import forms
-from models import Employee
+
+from .models import Employee
+
+
 
 class EmployeeForm(forms.ModelForm):
+
     class Meta:
+
         model = Employee
-        fields = '__all__'  
+
+        fields = '__all__'  # Include all fields of the Employee model

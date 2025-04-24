@@ -1,4 +1,3 @@
-# filepath: c:\Users\96550\Documents\GitHub\lab-final-Yousef2212176134\companyproj\empapp\urls.py
 from django.urls import path
 from . import views
 
